@@ -32,4 +32,16 @@ for z in words:
 print(fib(1000))
 
 
+
+#demonstrating using a dictionary
+telephone = {'bob': 1233453, 'sape':5452588, 'hac':12445}
+list(telephone.keys())
+sorted(telephone.keys())
+
+print('bob in telephone')
+print('bob' in telephone)
+
+for x, y in telephone.items():
+	print(x, y)
+
 	
