@@ -1,7 +1,7 @@
 '''
 Basic python commands from the python 3.5 documentation pages
 '''
-
+import math
 
 #fibonaci numbers
 def fib(n):
@@ -45,3 +45,11 @@ for x, y in telephone.items():
 	print(x, y)
 
 	
+d = 'days'
+h = 'mays'
+print('We are the {} that say {}' .format(d,h))
+
+print('This {food} is {adjective}.'.format(
+    food='spam', adjective='absolutely horrible'))
+	
+print('The value of PI is approximately {0:.3f}.'.format(math.pi))
